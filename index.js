@@ -22,3 +22,7 @@ app.get('/users', function(req, res) {
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port')); 
 });
+
+//when ready to publish to heroku:
+//add, checkin & push to github then:
+//git push heroku master
